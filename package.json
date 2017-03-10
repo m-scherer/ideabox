@@ -1,0 +1,36 @@
+{
+  "name": "ideabox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscherer11/ideabox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mscherer11/ideabox/issues"
+  },
+  "homepage": "https://github.com/mscherer11/ideabox#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.4",
+    "mocha": "^3.2.0",
+    "mocha-loader": "^1.1.1",
+    "sass-loader": "^6.0.3",
+    "selenium-webdriver": "^3.3.0",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^3.3.0"
+  }
+}
